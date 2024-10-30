@@ -4,14 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .xyh {
+        display: block;
+        background-color: yellow;
+        height: 50px;
+        width: 40px;
+        margin: 10px;
+        text-align: center;
+      }
+      .px {
+        display: flex;
+        height: auto;
+        width: auto;
+        margin: 10px;
+        background-color: blueviolet;
+      }
+      .px2 {
+        background-color: red;
+        height: 20px;
+        width: 30px;
+        margin: 10px;
+        align-items: center;
+      }
+      .px3 {
+        background-color: blue;
+        height: 50px;
+        width: 40px;
+        margin: 10px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <div><b>测试</b>网页</div>
-    <div></div>
-    <div style="background-color: chartreuse">
-      <a href="index.html">首页</a>
-      <a href="3.html">上一页</a>
-      <a href="">下一页 </a>
+    <div style="background-color: antiquewhite">
+      <div><h1>测试网页</h1></div>
+
+      <div class="px">
+        <h1>测试1</h1>
+        <div class="xyh">
+          <p>111</p>
+        </div>
+        <div class="xyh">
+          <p>222</p>
+        </div>
+        <div class="xyh">
+          <p>333</p>
+        </div>
+        <div class="xyh">
+          <p>444</p>
+        </div>
+      </div>
+      <div style="background-color: green; margin: 10px">
+        <h1>测试2</h1>
+        <p class="px2">444</p>
+        <p class="px2">333</p>
+        <p class="px2">222</p>
+        <p class="px2">111</p>
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background-color: orangered;
+        "
+      >
+        <h6 class="px3">1</h6>
+        <h6 class="px3">1</h6>
+        <h6 class="px3">1</h6>
+        <h6 class="px3">1</h6>
+      </div>
+      <div
+        style="background-color: chartreuse; text-align: center; margin: 30px"
+      >
+        <a href="index.html"><b>首页</b></a>
+        <a href="3.html">上一页</a>
+        <a href="">下一页 </a>
+      </div>
     </div>
   </body>
 </html>

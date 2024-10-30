@@ -14,13 +14,17 @@
     </style>
   </head>
   <body>
+    <div style="display: flex;
+          flex-direction: column;
+          align-items: center;
+          background-color:beige">
     <h1 id="one">学习html页面</h1>
     <p style="color: aqua; height: 8px">搜索</p>
     <input />
     <p>input为搜索框指令</p>
     <input value="value标签" />
     <div
-      style="color: brown; background-color: khaki; height: 450px; width: 620px"
+      style="color: brown; background-color: khaki; margin:7px;width:350px;"
     >
       <h1>HTML代码意思</h1>
       <p>
@@ -123,10 +127,24 @@
         />
       </div>
     </div>
+    <div style="background-color: blue;
+    flex-direction: column;
+    display: flex;
+    width:620px">
+      <img src="https://img.picui.cn/free/2024/10/31/67227b0a8e7d5.png" alt="实例1.png" title="实例1.png" width="450px"/>
+      <img src="https://img.picui.cn/free/2024/10/31/67227b0a8d261.png" alt="实例2.png" title="实例2.png" width="450px"/>
+      <b>区块圈柱居中(弹性盒子布局)</b>
+      <p><b>display:flex=</b>布局方式，可用于容器中，也可用于行元素</p>
+      <p><b>flex-direction:column=</b>决定主轴方向（及排列方向=）垂直，上为起点</p>
+      <P>属性：column-reverse:垂直，下往;column：垂直，上往下;row（默认）:水平，起点左；row-reverse:水平，起点右</P>
+      <p>align-items:center=区块中所有子元素居中</p>
+    </div>
+    </div>
     <div style="background-color: chartreuse; text-align: center">
       <a href="index.html">首页</a>
       <a href="2.html">上一页</a>
       <a href="4.HTML">下一页</a>
+    </div>
     </div>
   </body>
 </html>
